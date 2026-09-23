@@ -48,3 +48,17 @@ htmlcov/
 
 # Docker
 .docker/
+
+# Python tooling
+*.pyo
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# Local SQLite runtime data
+*.db
+*.sqlite
+*.sqlite3
+data/
